@@ -1,0 +1,137 @@
+/* cover-image 
+https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg
+ 
+color code 
+ 
+orange #E64A19
+brown  #4E342E */
+
+
+body{
+    margin: auto 0;
+    font-family: 'Sulphur Point', sans-serif;
+  
+
+}
+.header-bg-image{
+    display: flex;
+    background: url(https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822_960_720.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 90vh;
+    color: #f5f5f6;
+
+}
+
+.main-nav{
+    display: flex;
+    list-style: none;
+   text-transform: capitalize;
+ 
+
+   
+    
+}
+
+.main-nav li{
+    padding: .8rem;
+    font-size: 1.2rem;
+
+}
+.main-nav a{
+    text-decoration: none;
+    color: #f5f5f6;
+   
+}
+.main-nav a:hover{
+    color:#E64A19;
+}
+/* .sticky{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    
+} */
+@media only screen and (max-width:600px){
+    .main-nav{
+        font-size: 0.4rem;
+        padding: 0%;
+    }
+}
+@media only screen and (max-width:600px){
+    .header-bg-image{
+      
+    height: 75vh;
+  
+    }
+}
+
+
+.hero-text{
+    margin-top: 15%;
+    margin-left: 10%;
+    font-size: 2rem;
+    text-align: center;
+}
+.hero-text .main-heading{
+    background-color: #E64A19;
+}
+.hero-text .sub-heading{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid white;
+    background-color: white;
+    color: #E64A19;
+}
+
+
+
+
+
+ .about-pic{
+     text-align: center;
+     
+    
+ }
+ .rounded-circle{
+     border-radius: 50%;
+ }
+ .about-pic h2{
+    font-size: 2rem;
+ }
+ .about-text{
+     text-align: center;
+     font-size: 1.5rem;
+     text-transform: capitalize;
+ }
+.skill{
+text-align: center;
+
+}
+.skill h2{
+    font-size: 2rem;
+}
+
+.skill .button{
+    font-size: 1.5rem;
+    
+   
+}
+.skill .button .btn{
+    color: #E64A19;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #E64A19 ;
+    border-radius: 25px;
+}
+.skill .button .btn:hover{
+   color:white;
+   background-color:#E64A19 ;
+}
+
+ footer{
+     text-align: center;
+     
+ }
